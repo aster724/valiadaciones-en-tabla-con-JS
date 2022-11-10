@@ -1,0 +1,290 @@
+/*CSS Reset / Normalize*/
+/* Hemos disponibilizado el básico de reset de estilos. Si quieren, añadan más informaciones 
+en las secciones señaladas */
+/*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
+coloque nas sessões indicadas*/
+
+:root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --cor-de-fundo: #F5F5F5;
+   --cor-de-link: #000;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo) ;
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+/*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
+
+Lo que es el BEM?
+
+BEM (Bloque, Elemento, Modificador) es un enfoque basado en componentes para el 
+desarrollo web. La idea detrás de esto es dividir la interfaz de usuario en bloques
+independientes. Esto hace que el desarrollo de la interfaz sea fácil y rápido, incluso
+con una interfaz de usuario compleja, y permite la reutilización del código existente sin copiar y pegar.
+
+Enlace de la documentación oficial!
+https://en.bem.info/methodology/quick-start/*/
+
+.home {
+        position: absolute;
+        width: 1440px;
+        height: 5020px;
+        left: 0px;
+        top: 0px;
+}
+
+/*Sección Menu*/
+.tudo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 32px;
+    
+        position: absolute;
+        height: 5020px;
+        left: 0%;
+        right: 0%;
+        top: 0px;
+        height: 5020px;
+width: 1440px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+
+
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 88px;
+width: 1136px;
+left: 152px;
+top: 0px;
+border-radius: 0px;
+padding: 32px 0px 32px 0px;
+justify-content: space-between;
+
+}
+
+.menu__header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 24px;
+    width: 134px;
+    left: 0px;
+    top: 32px;
+    border-radius: 0px;
+           
+}
+
+.menu__list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    
+    width: 653px;
+    height: 19px;
+    flex: none;
+order: 1;
+flex-grow: 0;
+}
+.menu__list__item__contato{
+    width: 168px;
+height: 19px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+/* Preto/100% */
+
+color: #464646;
+}
+
+/*Sección Title*/
+
+.title{
+    display: flex;
+    height: 368px;
+width: 1136px;
+left: 152px;
+top: 120px;
+border-radius: 0px;
+justify-content: space-between;
+
+
+}
+
+.title__div{
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 0;
+width: 1136px;
+height: 368px;
+}
+.title__profile{
+    height: 368px;
+width: 368px;
+left: 768px;
+top: 0px;
+border-radius: 0px;
+
+
+}
+.title__container{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+height: 246px;
+width: 751px;
+left: 0px;
+top: 61px;
+border-radius: 0px;
+
+}
+
+.title__bio{
+    width: 751px;
+height: 122px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 52px;
+line-height: 61px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.title__subsection{
+    width: 751px;
+height: 52px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+
+/* Preto/100% */
+
+color: #464646;
+
+}
+.title__network{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 467px;
+height: 24px;
+}
+/*Sección About*/
+
+section.about{
+
+}
+
+/*Sección Hobbies*/
+
+section.hobbies{
+    
+}
+
+/* Experiencia Académica*/
+
+section.academic{
+
+}
+
+/* experiencia*/
+
+section.experience{
+
+}
+
+/*Contacto*/
+
+section.formcontato{
+
+}
+
+/*footeer*/
+
+section.footer{
+   
+}
+
+/* Vamos a desafiarnos trabajando con responsividad?
+Utiliza las referencias de los breakpoints @media abajo */
+
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+/* Menú */
+
+/*title*/
+
+/*Skills*/
+
+/*Hobbies*/
+
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+/*Menu*/
+
+/*Titulo*/
+
+/*Sección sobre mi*/
+
+/*Skills*/
+
+/*Hobbies*/
+ 
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+ /*Contacto*/
+
+/*Footer*/
+
+}
